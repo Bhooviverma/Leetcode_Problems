@@ -21,7 +21,6 @@ int height(struct TreeNode* root) {
     if (abs(left - right) > 1)
         return -1;
 
-
     return 1 + (left > right ? left : right);
 }
 
